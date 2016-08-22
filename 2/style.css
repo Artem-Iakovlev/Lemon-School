@@ -1,0 +1,24 @@
+.img_1 {
+	width: 300px;
+}
+h1 {
+	color: firebrick;
+}
+.text_1 {
+	color: crimson;
+}
+.text_2 {
+	text-align: left;
+}
+.list_1 {
+	text-align: left;
+	color: darkred;
+}
+span {
+color:crimson;
+text-decoration: underline;
+}
+.footer {
+	border-bottom: 2px black dashed;
+	margin: 1px;
+}
