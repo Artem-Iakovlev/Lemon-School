@@ -1,0 +1,178 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}	
+.wrapper {
+	background: url(images/bg1.jpg);
+	width: 1200px;
+	border-right: 10px outset black;
+	border-left: 10px outset black;
+	border-top: 15px outset black;
+	margin: 0 auto;
+}
+.logo-wrapper {
+	background-color: white;
+}
+.logo-wrapper img {
+	text-align: left;
+	margin-left: 65px;
+	width: 16%;
+}
+.logo-wrapper a:hover {
+	opacity: 0.95;
+}
+.logo-wrapper p {
+	text-align: right;
+	font-size: 40px;
+	font-family: monospace;
+	width: 880px;
+	margin-right: 0;
+	margin-left: 300px;
+	color: black;
+	position: absolute;
+	top: 80px;
+	font-family: fantasy;
+}
+.nav-header {
+	background-color: white;
+	font-size: 28px;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+}
+.nav-header ul {
+padding-left: 65px;
+}
+.nav-header a {
+	display: inline-block;
+	padding: 10px 25px 10px;
+	text-decoration: none;
+	color: black;
+}
+.nav-header a:hover {
+	background-color: black;
+	color: red;
+}
+
+nav li {
+	display: inline-block;
+}
+div .sidebar {
+	margin-left: 5px;
+	float: left;
+	background-color: white;
+	width: 200px;
+	display: block;
+	position: fixed;
+	border: 3px outset black;
+	font-size: 25px;
+	padding-left: 40px;
+	line-height: 1.8;
+}
+.sidebar li {
+    list-style-type: none; 
+   }
+
+.sidebar a {
+	text-decoration: none;
+	color: black;
+}
+.sidebar a:hover {
+	border-bottom: 2px double;
+	color: red;
+}
+.content {
+	margin-top: 20px;
+	margin-left: 230px;
+}
+.hero img {
+	height: 210px;
+	width: 210px;
+	border-radius: 280px; 
+	margin-top: 10px;
+	position: absolute;
+}
+.hero figcaption {
+	text-align: center;
+	font-size: 37px;
+	color: black;
+}
+.hero span {
+	color: black;
+	font-size: 20px;
+	width: 700px;
+	margin-left: 230px;
+	margin-top: 10px;
+	display: block;
+	font-weight: 500;
+	line-height: 1.4
+	min-height: 220px;
+}
+.about {
+	width: 800px;
+	margin: 0 auto;
+	owerflow: hidden;
+}
+.about img {
+	width: 80%;
+	height: 80%;
+	margin-left: 20px;
+}
+.about figure {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 70px 30px;
+}
+.about::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.about figcaption {
+	text-align: center;
+	font-size: 20px;
+	color: red;
+}
+.contacts-head {
+	text-align: center;
+	color: black;
+	font-size: 37px;
+	margin-left: 400px;
+}
+.contacts-item {
+	color: black;
+	font-size: 20px;
+	display: block;
+	margin-top: 10px;
+	font-weight: 500;
+
+}
+.contacts-item:hover {
+	margin-left: 250px;
+	color: red;
+}
+.contacts {
+	margin-bottom: 30px;
+}
+footer {
+	padding: 20px;
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	border:outset 10px black;
+}
+.nav-footer li {
+	padding: 10px;
+	color: black;
+}
+.nav-footer a {
+	text-decoration: none;
+	color: black;
+}
+.nav-footer a:hover {
+	border-bottom: 2px double;
+}
+.nav-footer a:visited {
+	color: black;
+}
