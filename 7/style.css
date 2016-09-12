@@ -11,6 +11,7 @@ a::before {
 a {
 	position: relative;
 	text-decoration: none;
+	color: black;
 }
 a:hover::before {
 	width: 100%;
