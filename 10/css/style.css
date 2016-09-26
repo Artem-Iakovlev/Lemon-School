@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+form {
+	width: 600px;
+	margin: 0 auto;
+	font-size: 24px;
+}
+.form {
+	display: block;
+	border: 1px solid grey;
+	border-radius: 3px;
+	margin: 10px 0;
+	overflow: hidden;
+}
+span {
+	background-color: #E6E6E6;
+	padding: 5px;
+	color: dimgrey;
+	border: 1px solid grey;
+	margin-left: -2px;
+}
+input {
+	border: 1px solid white;
+	margin-right: -3px;
+	padding-left: 5px;
+	margin-left: -3px;
+	padding-right: 5px;
+	font-size: 26px;
+}
+input[name="in-1"] {
+	width: 94%;
+}
+input[name="in-2"]{
+	width: 73.12%;
+}
+input[name="in-3"] {
+	width: 88.6%;
+}
+input[name="in-4"] {
+	width: 54%;
+}
+button {
+	display: inline-block;
+	width: 15%;
+	background-color: white;
+	padding: 5px 0;
+	font-size: 20px;
+	border: 1px solid grey;
+	color: dimgrey;
+	border-radius: 3px;
+}
+button:hover {
+	background-color: #ccc;;
+}
